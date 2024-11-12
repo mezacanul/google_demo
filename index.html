@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google</title>
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- Menu -->
+        <header>
+            <a href="#">Gmail</a>
+            <a href="#">Perfil</a>
+        </header>
+        
+        <main>
+            <!-- Buscador -->
+            <div id="buscador">
+                <h1>
+                    <b class="g-blue">G</b><b class="g-red">o</b><b class="g-yellow">o</b><b class="g-blue">g</b><b class="g-green">l</b><b class="g-red">e</b>
+                </h1>
+                <!-- <img id="google-logo" src="google-logo.png" alt=""> -->
+                <input id="fuente" type="text" onkeyup="verificarSiPresionoEnter(event)">
+                <button type="button" id="btn-buscar" onclick="buscar()">Buscar</button>
+            </div>
+
+            <!-- Advertencia -->
+            <div id="advertencia">
+                <p>El campo de busqueda no puede estar vacío</p>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <a href="#">Privacidad</a>
+            <a href="#">Terminos</a>
+            <a href="#">Configuracion</a>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+</html>
